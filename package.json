@@ -1,0 +1,25 @@
+{
+  "name": "third-party-scripts",
+  "version": "0.1.0",
+  "description": "第三方脚本，迁入自己服务器做https，包含百度分享",
+  "scripts": {
+    "baidu": "node baidu/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclay/third-party-scripts.git"
+  },
+  "keywords": [
+    "https",
+    "third-party",
+    "scripts",
+    "nodejs",
+    "baidu",
+  ],
+  "author": "wangchenglin <wangchenglin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "superagent": "^3.7.0",
+    "colors": "^1.1.2"
+  }
+}
