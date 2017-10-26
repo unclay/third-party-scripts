@@ -46,3 +46,38 @@ module.exports = {
 
 2. 所有js、css的头部加入对应的header信息
 3. 移除logger文件，分享统计的不支持https
+
+
+## QQ & Discuz
+
+```bash
+# 从QQ抓取相关的脚本
+$ npm run qq $1
+
+# 不存在$1时，默认生成到/qq下面
+# $1可配置成自己需要存放的路径，例如：/code/source/qq/
+```
+
+##### 存在问题：
+1. 移除qq初始化统计事件，感觉不如直接关闭腾讯分析
+
+##### 处理方式：
+
+1. 移除qq初始化统计事件
+
+```bash
+# /qq/config.js
+module.exports = {
+  rules: [
+    {
+      match: /ping\.js/i,
+      handler: function (text) {
+        text = text.replace(/http:/gi, '')
+                    .replace(/this\.loadHotClick\(this\)/i, '')
+                    .replace(/this\.sendInfo\(this\.url\.join\(""\)\);/i, '');
+        return text;
+      }
+    }
+  ],
+};
+```

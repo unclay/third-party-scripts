@@ -1,9 +1,10 @@
 {
   "name": "third-party-scripts",
   "version": "0.1.0",
-  "description": "第三方脚本，迁入自己服务器做https，包含百度分享",
+  "description": "第三方脚本，迁入自己服务器做https，包含百度分享、腾讯分析",
   "scripts": {
-    "baidu": "node baidu/index.js"
+    "baidu": "node baidu/index.js",
+    "qq": "node qq/index.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,9 @@
     "third-party",
     "scripts",
     "nodejs",
-    "baidu"
+    "baidu",
+    "discuz",
+    "qq"
   ],
   "author": "wangchenglin <wangchenglin@gmail.com>",
   "license": "ISC",
