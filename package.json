@@ -22,7 +22,8 @@
   "author": "wangchenglin <wangchenglin@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "superagent": "^3.7.0",
-    "colors": "^1.1.2"
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.1.2",
+    "superagent": "^3.7.0"
   }
 }
