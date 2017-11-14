@@ -1,6 +1,6 @@
 /*!
  * Third Party Scripts v0.1.0 (https://github.com/unclay/third-party-scripts)
- * Clone at 2017-10-25 16:52:22
+ * Clone at 2017-10-25 17:22:23
  * Clone from http://s.wenzhang.baidu.com/js/pjt/content_ex/page/bookmark.js
  */
 /*! 5435 2013-12-3 20:13:23 */

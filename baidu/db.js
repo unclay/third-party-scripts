@@ -31,14 +31,17 @@ module.exports = [
 
   'http://bdimg.share.baidu.com/static/api/css/slide_share.css',
   'http://bdimg.share.baidu.com/static/api/css/share_style0_16.css',
+  'http://bdimg.share.baidu.com/static/api/css/share_style0_24.css',
   'http://bdimg.share.baidu.com/static/api/css/share_style0_32.css',
   'http://bdimg.share.baidu.com/static/api/css/share_popup.css',
   'http://bdimg.share.baidu.com/static/api/css/select_share.css',
   'http://bdimg.share.baidu.com/static/api/css/weixin_popup.css',
 
   'http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png',
+  'http://bdimg.share.baidu.com/static/api/img/share/icons_0_24.png',
   'http://bdimg.share.baidu.com/static/api/img/share/icons_0_32.png',
   'http://bdimg.share.baidu.com/static/api/img/share/icons_1_16.png',
+  'http://bdimg.share.baidu.com/static/api/img/share/icons_1_24.png',
   'http://bdimg.share.baidu.com/static/api/img/share/icons_1_32.png',
   'http://bdimg.share.baidu.com/static/api/img/share/r0.gif',
   'http://bdimg.share.baidu.com/static/api/img/share/r1.gif',
